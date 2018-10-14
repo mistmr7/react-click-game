@@ -1,0 +1,97 @@
+[{
+  "id": 1,
+  "img": "/Images/babyDaisy.png"
+},
+{
+  "id": 2,
+  "img": "../Images/babyLuigi.PNG"
+},
+{
+  "id": 3,
+  "img": "../babyMario.PNG"
+},
+{
+  "id": 4,
+  "img": "./Images/babyPeach.PNG"
+},
+{
+  "id": 5,
+  "img": "../Images/birdo.PNG"
+},
+{
+  "id": 6,
+  "img": "./components/Images/bowser.jpg"
+},
+{
+  "id": 7,
+  "img": "../components/Images/bowserJr.PNG"
+},
+{
+  "id": 8,
+  "img": "./src/components/Images/daisy.PNG"
+},
+{
+  "id": 9,
+  "img": "../../src/components/Images/diddyKong.PNG"
+},
+{
+  "id": 10,
+  "img": "./donkeyKong.PNG"
+},
+{
+  "id": 11,
+  "img": "./dryBones.PNG"
+},
+{
+  "id": 12,
+  "img": "./dryBowser.PNG"
+},
+{
+  "id": 13,
+  "img": "./funkKong.jpg"
+},
+{
+  "id": 14,
+  "img": "./kingBoo.PNG"
+},
+{
+  "id": 15,
+  "img": "./koopaTroopa.PNG"
+},
+{
+  "id": 16,
+  "img": "./luigi.jpg"
+},
+{
+  "id": 17,
+  "img": "./mario.jpg"
+},
+{
+  "id": 18,
+  "img": "./peach.PNG"
+},
+{
+  "id": 19,
+  "img": "./rosalina.PNG"
+},
+{
+  "id": 20,
+  "img": "./toad.jpg"
+},
+{
+  "id": 21,
+  "img": "./toadette.PNG"
+},
+{
+  "id": 22,
+  "img": "./waluigi.PNG"
+},
+{
+  "id": 23,
+  "img": "./wario.PNG"
+},
+{
+  "id": 24,
+  "img": "./yoshi.PNG"
+}
+]
