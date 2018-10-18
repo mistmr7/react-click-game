@@ -47,12 +47,10 @@ class Score extends Component {
 
       // push the score to the scores array
       this.state.scores.push(this.state.score + 1)
-      
-      //check the scores array for the highest score and set it to the high Score
-      this.state.highScore = Math.max.apply(null, this.state.scores)
+    
         
         this.setState({
-          highScore: this.state.highScore,
+          highScore: Math.max.apply(null, this.state.scores),
           scores: this.state.scores,
           chosen: this.state.chosen, 
           marioKart: shuffle(marioKart),
