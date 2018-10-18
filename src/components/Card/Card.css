@@ -1,6 +1,16 @@
 .card {
-  width:  30vh;
+  width:  20vh;
   height: 20vh;
   position: relative;
   margin: 5px;
+  box-shadow: 2px 2px 2px 2px #eee;
+}
+.card:hover {
+  box-shadow: 5px 5px 5px 5px;
+}
+
+.vertical-center {
+  width: fit-content;
+  display: flex;
+  align-items: center;
 }

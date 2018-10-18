@@ -1,97 +1,145 @@
 [{
   "id": 1,
-  "img": "/Images/babyDaisy.png"
+  "img": "Images/babyDaisy.PNG",
+  "name": "Baby Daisy",
+  "clicked": false
 },
 {
   "id": 2,
-  "img": "../Images/babyLuigi.PNG"
+  "img": "Images/babyluigi.PNG",
+  "name": "Baby Luigi",
+  "clicked": false
 },
 {
   "id": 3,
-  "img": "../babyMario.PNG"
+  "img": "Images/babyMario.png",
+  "name": "Baby Mario",
+  "clicked": false
 },
 {
   "id": 4,
-  "img": "./Images/babyPeach.PNG"
+  "img": "Images/babyPeach.PNG",
+  "name": "Baby Peach",
+  "clicked": false
 },
 {
   "id": 5,
-  "img": "../Images/birdo.PNG"
+  "img": "Images/birdo.PNG",
+  "name": "Birdo",
+  "clicked": false
 },
 {
   "id": 6,
-  "img": "./components/Images/bowser.jpg"
+  "img": "Images/bowser.jpg",
+  "name": "Bowser",
+  "clicked": false
 },
 {
   "id": 7,
-  "img": "../components/Images/bowserJr.PNG"
+  "img": "Images/bowserJr.PNG",
+  "name": "Bowser Jr",
+  "clicked": false
 },
 {
   "id": 8,
-  "img": "./src/components/Images/daisy.PNG"
+  "img": "Images/daisy.PNG",
+  "name": "Daisy",
+  "clicked": false
 },
 {
   "id": 9,
-  "img": "../../src/components/Images/diddyKong.PNG"
+  "img": "Images/diddyKong.PNG",
+  "name": "Diddy Kong",
+  "clicked": false
 },
 {
   "id": 10,
-  "img": "./donkeyKong.PNG"
+  "img": "Images/donkeyKong.PNG",
+  "name": "Donkey Kong",
+  "clicked": false
 },
 {
   "id": 11,
-  "img": "./dryBones.PNG"
+  "img": "Images/dryBones.PNG",
+  "name": "Dry Bones",
+  "clicked": false
 },
 {
   "id": 12,
-  "img": "./dryBowser.PNG"
+  "img": "Images/dryBowser.PNG",
+  "name": "Dry Bowser",
+  "clicked": false
 },
 {
   "id": 13,
-  "img": "./funkKong.jpg"
+  "img": "Images/FunkyKong.PNG",
+  "name": "Funky Kong",
+  "clicked": false
 },
 {
   "id": 14,
-  "img": "./kingBoo.PNG"
+  "img": "Images/kingBoo.PNG",
+  "name": "King Boo",
+  "clicked": false
 },
 {
   "id": 15,
-  "img": "./koopaTroopa.PNG"
+  "img": "Images/koopaTroopa.PNG",
+  "name": "Koopa Troopa",
+  "clicked": false
 },
 {
   "id": 16,
-  "img": "./luigi.jpg"
+  "img": "Images/luigi.jpg",
+  "name": "Luigi",
+  "clicked": false
 },
 {
   "id": 17,
-  "img": "./mario.jpg"
+  "img": "Images/mario.jpg",
+  "name": "Mario",
+  "clicked": false
 },
 {
   "id": 18,
-  "img": "./peach.PNG"
+  "img": "Images/peach.PNG",
+  "name": "Peach",
+  "clicked": false
 },
 {
   "id": 19,
-  "img": "./rosalina.PNG"
+  "img": "Images/rosalina.PNG",
+  "name": "Rosalina",
+  "clicked": false
 },
 {
   "id": 20,
-  "img": "./toad.jpg"
+  "img": "Images/toad.jpg",
+  "name": "Toad",
+  "clicked": false
 },
 {
   "id": 21,
-  "img": "./toadette.PNG"
+  "img": "Images/toadette.PNG",
+  "name": "Toadette",
+  "clicked": false
 },
 {
   "id": 22,
-  "img": "./waluigi.PNG"
+  "img": "Images/waluigi.PNG",
+  "name": "Waluigi",
+  "clicked": false
 },
 {
   "id": 23,
-  "img": "./wario.PNG"
+  "img": "Images/wario.PNG",
+  "name": "Wario",
+  "clicked": false
 },
 {
   "id": 24,
-  "img": "./yoshi.PNG"
+  "img": "Images/yoshi.PNG",
+  "name": "Yoshi",
+  "clicked": false
 }
 ]

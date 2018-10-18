@@ -4,14 +4,14 @@ import './Card.css'
 // import marioKart from './marioKart.json'
 
 const Card = (props) => {
-  
   return (
-    <div className="card justify-content-center">
-      <div className="card-body justify-content-center" onClick={props.click}>
-        <img src={props.img} />
-      </div>
+  <div className="card justify-content-center align-middle">
+    <div className="img-container vertical-center">
+      <img alt={props.name} id={props.id} src={props.img} onClick={props.click}/>
     </div>
+  </div>
   )
 }
+
 
 export default Card;

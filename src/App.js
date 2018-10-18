@@ -1,26 +1,15 @@
 import React, { Component } from 'react';
-import Card from './components/Card/Card';
-import marioKart from './marioKart.json';
+// import Card from './components/Card/Card.js';
+// import marioKart from './marioKart.json';
+import Score from './components/Score/Score'
+
+// import _ from 'lodash';
 import './App.css';
 
 class App extends Component {
-
-  state = {
-    marioKart
-  }
-
   render() {
-    return (
-      <div className="container">
-        <div className="row justify-content-center">
-          {this.state.marioKart.map(character => (
-            <Card 
-              id={character.id}
-              key={character.id}
-              img={character.img}/>
-          ))}         
-        </div>
-      </div>
+    return (      
+        <Score/>  
     );
   }
 }
