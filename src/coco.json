@@ -1,0 +1,79 @@
+[{
+  "id": 1,
+  "img": "Images/Coco1.JPG",
+  "name": "Coco1",
+  "clicked": false
+},
+{
+  "id": 2,
+  "img": "Images/Coco2.jpg",
+  "name": "Coco2",
+  "clicked": false
+},
+{
+  "id": 3,
+  "img": "Images/Coco3.jpg",
+  "name": "Coco3",
+  "clicked": false
+},
+{
+  "id": 4,
+  "img": "Images/Coco4.jpg",
+  "name": "Coco4",
+  "clicked": false
+},
+{
+  "id": 5,
+  "img": "Images/Coco5.PNG",
+  "name": "Coco5",
+  "clicked": false
+},
+{
+  "id": 6,
+  "img": "Images/Coco6.jpg",
+  "name": "Coco6",
+  "clicked": false
+},
+{
+  "id": 7,
+  "img": "Images/Coco7.jpg",
+  "name": "Coco7",
+  "clicked": false
+},
+{
+  "id": 8,
+  "img": "Images/Coco8.JPG",
+  "name": "Coco8",
+  "clicked": false
+},
+{
+  "id": 9,
+  "img": "Images/Coco9.JPG",
+  "name": "Coco9",
+  "clicked": false
+},
+{
+  "id": 10,
+  "img": "Images/Coco10.jpg",
+  "name": "Coco10",
+  "clicked": false
+},
+{
+  "id": 11,
+  "img": "Images/Coco11.PNG",
+  "name": "Coco11",
+  "clicked": false
+},
+{
+  "id": 12,
+  "img": "Images/Coco12.jpg",
+  "name": "Coco12",
+  "clicked": false
+},
+{
+  "id": 13,
+  "img": "Images/Coco13.jpg",
+  "name": "Coco13",
+  "clicked": false
+}
+]

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './Score.css'
 import Card from '../Card/Card'
-// import coco from './coco.json'
+import coco from '../../coco.json'
 import marioKart from '../../../src/marioKart.json'
 
 // Function used to shuffle all of the cards
@@ -26,7 +26,7 @@ const shuffle = (array) => {
 
 class Score extends Component {
   state = {
-    marioKart,
+    characters: marioKart,
     score: 0,
     highScore: 0,
     scores:[],
@@ -53,7 +53,7 @@ class Score extends Component {
           highScore: Math.max.apply(null, this.state.scores),
           scores: this.state.scores,
           chosen: this.state.chosen, 
-          marioKart: shuffle(marioKart),
+          characters: shuffle(this.state.characters),
           welcomeMessage: "Nice choice!"           
         })    
 
@@ -69,7 +69,19 @@ class Score extends Component {
     }
   }
 
-
+  characterChangeHandler = (event) => {
+    if (this.state.characters === marioKart) {
+      this.setState({
+        characters: coco,
+        score: 0
+      })
+    } else {
+      this.setState({
+        characters: marioKart,
+        score: 0
+      })
+    }
+  }
 
  
   
@@ -78,6 +90,7 @@ class Score extends Component {
     <div className="container">
       <nav className="navbar navbar-dark bg-dark">
         <span className="navbar-brand mb-0 h1">React-Clicky-Game</span>
+        <button className="btn btn-outline-warning" onClick={this.characterChangeHandler}>Change Images</button>
         <ul className="score">
           <li value={this.state.score}>Score: {this.state.score}</li>
           <li>High Score: {this.state.highScore}</li>
@@ -85,7 +98,7 @@ class Score extends Component {
       </nav>
       <p className="text-center">{this.state.welcomeMessage}</p>
       <div className="row justify-content-center">
-        {this.state.marioKart.map(character => (
+        {this.state.characters.map(character => (
           <Card 
             id={character.id}
             key={character.id}

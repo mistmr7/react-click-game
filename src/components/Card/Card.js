@@ -5,9 +5,9 @@ import './Card.css'
 
 const Card = (props) => {
   return (
-  <div className="card justify-content-center align-middle">
+  <div className="card justify-content-center align-middle" onClick={props.click}>
     <div className="img-container vertical-center">
-      <img alt={props.name} id={props.id} src={props.img} onClick={props.click}/>
+      <img className="characterImage" alt={props.name} id={props.id} src={props.img}/>
     </div>
   </div>
   )
