@@ -37,7 +37,7 @@ class Score extends Component {
     
   imageClickedHandler = (event) => {
     // check to see if the card has been chosen, if so, add 1 to the score
-    if (this.state.chosen.indexOf(parseInt(event.target.id)) === -1){
+    if (!this.state.chosen.includes(parseInt(event.target.id))){
       this.setState( (state) => { return {
         score: state.score + 1    
       }})
@@ -56,7 +56,7 @@ class Score extends Component {
           characters: shuffle(this.state.characters),
           welcomeMessage: "Nice choice!"           
         })    
-
+        console.log(this.state.chosen)
     } else {
       let score = 0;
       return this.setState({
@@ -67,18 +67,23 @@ class Score extends Component {
         welcomeMessage: "Sorry, that item has already been clicked! Play again to see if you can set a new high Score!"
       })
     }
+    console.log(this.state.chosen)
+
+    
   }
 
   characterChangeHandler = (event) => {
     if (this.state.characters === marioKart) {
       this.setState({
         characters: coco,
-        score: 0
+        score: 0,
+        chosen:[]
       })
     } else {
       this.setState({
         characters: marioKart,
-        score: 0
+        score: 0,
+        chosen:[]
       })
     }
   }
