@@ -6,13 +6,13 @@
 },
 {
   "id": 2,
-  "img": "Images/babyluigi.PNG",
+  "img": "Images/babyLuigi.PNG",
   "name": "Baby Luigi",
   "clicked": false
 },
 {
   "id": 3,
-  "img": "Images/babyMario.png",
+  "img": "Images/babyMario.PNG",
   "name": "Baby Mario",
   "clicked": false
 },
@@ -72,7 +72,7 @@
 },
 {
   "id": 13,
-  "img": "Images/FunkyKong.PNG",
+  "img": "Images/funkyKong.PNG",
   "name": "Funky Kong",
   "clicked": false
 },
